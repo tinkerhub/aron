@@ -1,13 +1,31 @@
-# Project Name
-Long Description about project. This project do that. This project is awesome...
+# TinkerHub Portal - Frontend
+
+This repo will contain code and docs regarding the front-end designs and UI for the upcoming TinkerHub Portal.
+
 ## How it Works ?
-Explaining the working of project
+
+The front-end UI will depend on the data provided from the back-end API. Backend repository can be found here.
+
 ## Libraries used
-Library Name - Version
+
+* Vue.js
+* CSS
+
 ## How to configure
-Instructions for setting up project
+
+TBD - Instructions for setting up project
+
 ## How to Run
-Instructions for running
+
+TBD - Instructions for running
+
 ## How to Test 
-Instructions for testing  
+
+TBD - Instructions for testing  
+
 ## Contributors
+
+- [@GopikrishnanSasikumar](https://github.com/GopikrishnanSasikumar)
+- [@khalby786](https://github.com/khalby786)
+- [@laz-aslam](https://github.com/laz-aslam)
+- And some more people :sweat_smile: ...
