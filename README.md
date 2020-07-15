@@ -2,9 +2,9 @@
 
 This repo will contain code and docs regarding the front-end designs and UI for the upcoming TinkerHub Portal.
 
-UI designs: `Figma URL here`
-UI preview: https://tinkerhub-portal.glitch.me
-UI Preview Code: https://glitch.com/edit/#!/tinkerhub-portal
+- UI designs: `Figma URL here`
+- UI preview: https://tinkerhub-portal.glitch.me
+- UI Preview Code: https://glitch.com/edit/#!/tinkerhub-portal
 
 ## How it Works ?
 
