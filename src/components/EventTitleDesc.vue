@@ -2,11 +2,40 @@
 
   <span class="event-title-desc">
     <h2 class="event-name">
-      Pytorch | Machine Learning
+      {{eventName}}
     </h2>
     <p class="event-description">
-      <span class="date">02/02/2021</span> | <span class="about">Detailed Description</span>
+      <span class="date">{{date}}</span> | <span class="about">{{about}}</span>
     </p>
   </span>  
 
 </template>
+
+<script>
+
+  export default {
+    name: 'EventTitleDesc',
+    props: {
+      eventName: String,
+      date: String,
+      about: String
+    }
+  }
+
+</script>
+
+<style>
+
+  .event-name {
+    margin-bottom: 2px;
+  }
+
+  .event-description {
+    margin-top: 0px;
+  }
+
+  .event-title-desc {
+    display: inline-block;
+  }
+
+</style>

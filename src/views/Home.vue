@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <img src="https://cdn.khaleelgibran.com/img/donut.png" alt="Khaleel Gibran's blue donut" id="donut">
-  </div>
+  <Event eventName="Pytorch" date="02/02/2021" about="Detailed description"/>
 </template>
 
 <script>
-// @ is an alias to /src
+  
+  import Event from '@/components/Event.vue';
 
-export default {
-  name: 'Home',
-  components: {
-    
+  export default {
+    name: 'Home',
+    components: {
+      Event
+    }
   }
-}
+  
 </script>
 
 <style scoped>

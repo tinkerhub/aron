@@ -1,17 +1,24 @@
 <template>
 
   <div class="event">
-    
+    <EventTitleDesc :eventName="eventName" :date="date" :about="about" />
   </div>
 
 </template>
 
 <script>
+  
+  import EventTitleDesc from './EventTitleDesc.vue';
 
   module.exports = {
     name: 'Event',
     components: {
-      
+      EventTitleDesc
+    },
+    props: {
+      eventName: String,
+      date: String,
+      about: String,
     }
   }
   
