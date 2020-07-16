@@ -30,10 +30,7 @@
       <h3 class="event-page-title">
         Skills Required
       </h3>
-      <span class="ol-bullet" v-for="(skill, index) in skills">&nbsp;{{</span>
-      <span class="ol-bullet">&nbsp;1&nbsp;</span><span class="ol-text">Git</span><br><br>
-      <span class="ol-bullet">&nbsp;2&nbsp;</span><span class="ol-text">Python Basics</span><br><br>
-      <span class="ol-bullet">&nbsp;3&nbsp;</span><span class="ol-text">Marvel Knowledge</span>
+      <span class="ol-bullet" v-for="(skill, index) in skills">&nbsp;{{index + 1}}&nbsp;</span><span class="ol-text" v-for="(skill, index) in skills">{{skill}}</span>
     </div>
     
   </div>
@@ -58,6 +55,7 @@
       speakerInfo: String,
       speakerName: String,
       speakerAvatar: String,
+      skills: Array,
     }
   }
   
