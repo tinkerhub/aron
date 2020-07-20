@@ -17,11 +17,42 @@ The front-end UI will depend on the data provided from the back-end API. Backend
 
 ## How to configure
 
-TBD - Instructions for setting up project
+Configuring might be a bit hard, because many values are hard coded and TBD. :smile:
 
 ## How to Run
 
-TBD - Instructions for running
+1. Clone this repo.
+
+```
+git clone https://github.com/tinkerhub-org/aron.git
+cd aron
+```
+
+2. Install all the dependencies.
+
+```
+npm install
+```
+
+3. 
+  - Start development server.
+  
+  ```
+  npm run start
+  ```
+  
+  - Build files.
+  
+  ```
+  npm run build
+  ```
+  
+  - Lint files (using default Vue configuration)
+  
+  ```
+  npm run lint
+  ```
+  
 
 ## How to Test 
 

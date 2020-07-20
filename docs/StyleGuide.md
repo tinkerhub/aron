@@ -40,4 +40,4 @@ This document will provide information, such as the fonts used and any other sty
     - Font Family: IBM Plex Mono, monospace
   
   
-**This is not a complete guide for all the styles used, to see the 
+**This is not a complete guide for all the styles used! To see the whole styles used, refer to `plain/style.css`**
