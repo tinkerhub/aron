@@ -1,10 +1,15 @@
 # TinkerHub Portal - Frontend
 
+**This repo contains code that is not working or broken as this repo is being updated after every minor/major change to the code. You might see errors or the app might not work as expected, so please bear in mind that this is a work in progress.**
+
 This repo will contain code and docs regarding the front-end designs and UI for the upcoming TinkerHub Portal.
 
 - UI designs: `Figma URL here`
 - UI preview (without Vue.js): https://tinkerhub-portal.glitch.me
 - UI Preview Code: https://glitch.com/edit/#!/tinkerhub-portal
+- Vue development server (lots of errors and very slow): https://tinkerhub-portal-vue.glitch.me
+
+- **Style guide with instructions on UI styling at `docs/StylingGuide.md`**
 
 ## How it Works ?
 
