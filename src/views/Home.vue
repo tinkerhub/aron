@@ -1,8 +1,11 @@
 <template>
   <div>
     <div class="nav">
-      <span class="nav-el">Events</span>&nbsp;
-      <span class="nav-el">Courses</span>
+      <span class="nav-el"><router-link to="/">Events</router-link></span
+      >&nbsp;
+      <span class="nav-el"
+        ><router-link to="/courses">Courses</router-link></span
+      >
     </div>
     <div class="home-content">
       <!-- Events -->
@@ -18,11 +21,10 @@ export default {
   components: {
     Events
   }
-}
+};
 </script>
 
 <style scoped>
-
 .nav-el {
   font-family: "Fira Code", "IBM Plex Mono", monospace;
   font-size: 25px;
@@ -40,5 +42,4 @@ export default {
 .home-content {
   margin-top: 100px;
 }
-
 </style>
